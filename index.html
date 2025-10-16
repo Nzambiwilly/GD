@@ -154,6 +154,17 @@
             line-height: 1.6;
         }
         
+        .section-title {
+            color: #004080;
+            margin-bottom: 1em;
+            font-size: 1.8em;
+        }
+        
+        .document-list {
+            margin-left: 1.5em;
+            color: #666;
+        }
+        
         @media (max-width: 768px) {
             body {
                 padding: 1em;
@@ -187,15 +198,15 @@
                 <p>Ce site peut être partagé en utilisant l'URL dans votre navigateur. Tous les documents sont accessibles depuis cette page d'accueil.</p>
             </div>
             
-            <h2 style="color: #004080; margin-bottom: 1em; font-size: 1.8em;">📚 Documents Disponibles</h2>
+            <h2 class="section-title">📚 Documents Disponibles</h2>
             
             <div class="documents">
-                <a href="finsite/arr1.html" class="document-card">
+                <a href="finsite/arr1.html" class="document-card" aria-label="Note Circulaire N°410 concernant la digitalisation de la collecte des redevances FMR et DTM">
                     <h2>Note Circulaire N°410/CAB/SG/TVCD/0695./2025</h2>
                     <span class="badge">27 juin 2025</span>
                     <p>Digitalisation de la collecte des redevances pour le Fonds Maritime Régional (FMR) et le Droit de Trafic Maritime (DTM).</p>
                     <p><strong>Points clés :</strong></p>
-                    <ul style="margin-left: 1.5em; color: #666;">
+                    <ul class="document-list">
                         <li>Mise en œuvre effective prévue pour le 1er septembre 2025</li>
                         <li>Enregistrement obligatoire sur la plateforme SYGREM</li>
                         <li>Sessions de formation du 15 au 25 août 2025</li>
@@ -206,7 +217,7 @@
                     </div>
                 </a>
                 
-                <a href="finsite/arr.html" class="document-card">
+                <a href="finsite/arr.html" class="document-card" aria-label="Note Circulaire N°410 version simplifiée sur la digitalisation des redevances maritimes">
                     <h2>Note Circulaire N°410 - Version Simplifiée</h2>
                     <span class="badge">27 juin 2025</span>
                     <p>Version concise de la note circulaire relative à la digitalisation de la collecte des redevances maritimes.</p>
@@ -217,12 +228,12 @@
                     </div>
                 </a>
                 
-                <a href="finsite/arr3.html" class="document-card">
+                <a href="finsite/arr3.html" class="document-card" aria-label="Compilation des textes réglementaires et arrêtés ministériels du secteur maritime">
                     <h2>Textes Réglementaires du Secteur Maritime</h2>
                     <span class="badge">Référence</span>
                     <p>Compilation des principaux textes réglementaires et arrêtés ministériels régissant le secteur maritime en RDC.</p>
                     <p><strong>Inclut :</strong></p>
-                    <ul style="margin-left: 1.5em; color: #666;">
+                    <ul class="document-list">
                         <li>Arrêtés ministériels relatifs au FMR</li>
                         <li>Arrêtés interministériels FERI-AD-FERE</li>
                         <li>Textes de référence du secteur</li>
